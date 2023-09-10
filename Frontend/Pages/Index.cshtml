@@ -1,0 +1,56 @@
+﻿@page
+@model Frontend.Pages.IndexModel
+@{
+    await Model.OnGetAsync(); // Asegúrate de llamar a OnGetAsync aquí.
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... Tus encabezados HTML ... -->
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Agregar Producto</h2>
+    <form method="post">
+        <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Ingrese el nombre">
+        </div>
+        <div class="form-group">
+            <label for="price">Precio:</label>
+            <input type="text" class="form-control" id="price" name="price" placeholder="Ingrese el precio">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Agregar</button>
+    </form>
+
+    <h2>Lista de Productos</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.id</td>
+                    <td>@product.name</td>
+                    <td>@product.price</td>
+                    <td>
+                        <form method="post" asp-page-handler="Delete" asp-route-id="@product.id">
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
