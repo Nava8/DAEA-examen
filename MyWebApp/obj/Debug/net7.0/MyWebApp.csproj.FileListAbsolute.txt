@@ -29,3 +29,34 @@ C:\Users\Usuario\Desktop\NET\MyWebApp\obj\Debug\net7.0\refint\MyWebApp.dll
 C:\Users\Usuario\Desktop\NET\MyWebApp\obj\Debug\net7.0\MyWebApp.pdb
 C:\Users\Usuario\Desktop\NET\MyWebApp\obj\Debug\net7.0\MyWebApp.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\NET\MyWebApp\obj\Debug\net7.0\ref\MyWebApp.dll
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\appsettings.Development.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\appsettings.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\Controllers\items.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\MyWebApp.staticwebassets.runtime.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\MyWebApp.exe
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\MyWebApp.deps.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\MyWebApp.runtimeconfig.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\MyWebApp.dll
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\bin\Debug\net7.0\MyWebApp.pdb
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.AssemblyInfoInputs.cache
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.AssemblyInfo.cs
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.csproj.CoreCompileInputs.cache
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.RazorAssemblyInfo.cache
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.RazorAssemblyInfo.cs
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\staticwebassets\msbuild.MyWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\staticwebassets\msbuild.build.MyWebApp.props
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MyWebApp.props
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MyWebApp.props
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\staticwebassets.pack.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\staticwebassets.build.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\staticwebassets.development.json
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\scopedcss\bundle\MyWebApp.styles.css
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\scopedcss\projectbundle\MyWebApp.bundle.scp.css
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.dll
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\refint\MyWebApp.dll
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.pdb
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\MyWebApp.genruntimeconfig.cache
+D:\tecsup\CICLO VI\Desarrollo de Aplicaciones Empresariales Avanzado\3\DAEA-2\MyWebApp\obj\Debug\net7.0\ref\MyWebApp.dll
