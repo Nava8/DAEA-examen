@@ -10,7 +10,7 @@ namespace MyWebApp.Controllers
     [ApiController]
     public class ItemsController : ControllerBase
     {
-        private readonly string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"C:\Users\Usuario\Desktop\NET\MyWebApp\Controllers\items.json");
+        private readonly string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"C:\Users\USER\Desktop\DAEA\DAEA-2\MyWebApp\Controllers\items.json");
  // Ruta al archivo JSON
 
         // GET: api/items

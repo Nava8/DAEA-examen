@@ -1,0 +1,62 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta de API</title>
+    <style>
+        /* Estilos CSS opcionales */
+        #results {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consulta de API</h1>
+    
+    <form id="apiForm">
+        <label for="query">Consulta API:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <div id="results"></div>
+    
+    <script>
+    document.getElementById('apiForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        const query = document.getElementById('query').value;
+        const apiUrl = 'http://localhost:5248/tenor/';
+
+        // Realizar la solicitud a la API
+        fetch(apiUrl + query)
+            .then(response => response.json())
+            .then(data => {
+                const resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '<h2>Resultados:</h2>';
+                
+                // Obtener la URL del primer resultado (asumiendo que hay al menos un resultado)
+                const url = data.results[0].media_formats.gif.url;
+
+                // Crear una etiqueta de imagen para mostrar la URL
+                const imageElement = document.createElement('img');
+                imageElement.src = url;
+
+                // Agregar la imagen al div de resultados
+                resultsDiv.appendChild(imageElement);
+            })
+            .catch(error => {
+                console.error('Error al consultar la API:', error);
+            });
+    });
+</script>
+
+</body>
+</html>
