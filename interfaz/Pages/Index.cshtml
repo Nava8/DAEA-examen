@@ -1,62 +1,98 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Api Tenor - Interface";
 }
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Consulta de API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consulta de API Tenor</title>
     <style>
-        /* Estilos CSS opcionales */
-        #results {
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            padding: 10px;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
         }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        form {
+            text-align: center;
+            margin: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .text-danger {
+            color: red;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+
     </style>
 </head>
 <body>
     <h1>Consulta de API</h1>
-    
-    <form id="apiForm">
+
+    <form method="post">
         <label for="query">Consulta API:</label>
-        <input type="text" id="query" name="query" required>
+        <input type="text" asp-for="Query" required>
         <button type="submit">Enviar</button>
     </form>
-    
-    <div id="results"></div>
-    
-    <script>
-    document.getElementById('apiForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        
-        const query = document.getElementById('query').value;
-        const apiUrl = 'http://localhost:5248/tenor/';
 
-        // Realizar la solicitud a la API
-        fetch(apiUrl + query)
-            .then(response => response.json())
-            .then(data => {
-                const resultsDiv = document.getElementById('results');
-                resultsDiv.innerHTML = '<h2>Resultados:</h2>';
-                
-                // Obtener la URL del primer resultado (asumiendo que hay al menos un resultado)
-                const url = data.results[0].media_formats.gif.url;
+    @if (!string.IsNullOrEmpty(ViewData["Error"] as string))
+    {
+        <div class="text-danger">@ViewData["Error"]</div>
+    }
 
-                // Crear una etiqueta de imagen para mostrar la URL
-                const imageElement = document.createElement('img');
-                imageElement.src = url;
-
-                // Agregar la imagen al div de resultados
-                resultsDiv.appendChild(imageElement);
-            })
-            .catch(error => {
-                console.error('Error al consultar la API:', error);
-            });
-    });
-</script>
-
+    @if (!string.IsNullOrEmpty(ViewData["GifUrl"] as string))
+    {
+        <div>
+            <h2>Resultado:</h2>
+            <img src="@ViewData["GifUrl"]" alt="GIF">
+            @if (!string.IsNullOrEmpty(ViewData["Description"] as string))
+            {
+                <h2>@ViewData["Description"]</h2>
+            }
+        </div>
+    }
 </body>
 </html>
