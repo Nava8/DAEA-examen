@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\DAEA-2\\MyWebApp\\MyWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\DAEA-examen\\MyWebApp\\MyWebApp.csproj",
       "projectName": "MyWebApp",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\DAEA-2\\MyWebApp\\MyWebApp.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\DAEA-examen\\MyWebApp\\MyWebApp.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\DAEA-2\\MyWebApp\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\DAEA-examen\\MyWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

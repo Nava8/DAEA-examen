@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\DAEA-2\\interfaz\\interfaz.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\DAEA-examen\\interfaz\\interfaz.csproj",
       "projectName": "interfaz",
-      "projectPath": "C:\\Users\\Usuario\\Documents\\DAEA-2\\interfaz\\interfaz.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\DAEA-examen\\interfaz\\interfaz.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Documents\\DAEA-2\\interfaz\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\DAEA-examen\\interfaz\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
